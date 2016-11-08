@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="vacinaWeb">
+		<class>com.vacinaweb.entity.DmAllergy</class>
+		<class>com.vacinaweb.entity.DmDependenceType</class>
+		<class>com.vacinaweb.entity.DmDisease</class>
+		<class>com.vacinaweb.entity.DmLocal</class>
+		<class>com.vacinaweb.entity.DmVaccineType</class>
+		<class>com.vacinaweb.entity.TbAccess</class>
+		<class>com.vacinaweb.entity.TbAddress</class>
+		<class>com.vacinaweb.entity.TbAddressPK</class>
+		<class>com.vacinaweb.entity.TbDependent</class>
+		<class>com.vacinaweb.entity.TbDependentPK</class>
+		<class>com.vacinaweb.entity.TbEmail</class>
+		<class>com.vacinaweb.entity.TbEmailPK</class>
+		<class>com.vacinaweb.entity.TbEmployee</class>
+		<class>com.vacinaweb.entity.TbEmployeePK</class>
+		<class>com.vacinaweb.entity.TbPerson</class>
+		<class>com.vacinaweb.entity.TbPhone</class>
+		<class>com.vacinaweb.entity.TbPhonePK</class>
+		<class>com.vacinaweb.entity.TbVaccination</class>
+		<class>com.vacinaweb.entity.TbVaccinationPK</class>
+		<class>com.vacinaweb.entity.TbVaccine</class>
+	</persistence-unit>
+</persistence>
