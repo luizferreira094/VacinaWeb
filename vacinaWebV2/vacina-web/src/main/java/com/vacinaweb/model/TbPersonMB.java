@@ -9,7 +9,7 @@ import com.vacinaweb.entity.TbPerson;
 @ManagedBean(name="personMB")
 @SessionScoped
 public class TbPersonMB {
-	
+
 	private PersonController controller;
 	private TbPerson person;
 

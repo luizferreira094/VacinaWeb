@@ -9,7 +9,7 @@ import javax.persistence.PersistenceUnit;
 import com.vacinaweb.dao.IObjectDAO;
 import com.vacinaweb.entity.TbPerson;
 
-@PersistenceUnit(name="CRUD")
+@PersistenceUnit(name="vacinaWeb")
 public class PersonDAOImpl implements IObjectDAO {
 
 	private EntityManager manager;
@@ -20,7 +20,6 @@ public class PersonDAOImpl implements IObjectDAO {
 		emf.close();
 	}
 
-	@Override
 	public void insert(Object o) {
 		try{
 			manager.getTransaction().begin();
@@ -33,13 +32,11 @@ public class PersonDAOImpl implements IObjectDAO {
 		}
 	}
 
-	@Override
 	public List<Object> selectAll() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
 	public void update(Object o) {
 		try{
 			manager.getTransaction().begin();
@@ -53,7 +50,6 @@ public class PersonDAOImpl implements IObjectDAO {
 
 	}
 
-	@Override
 	public void delete(Object o) {
 		try{
 			manager.getTransaction().begin();
@@ -67,4 +63,6 @@ public class PersonDAOImpl implements IObjectDAO {
 
 	}
 
+
 }
+
